@@ -19,7 +19,7 @@ import br.gov.mg.bomdestino.stur.repository.IPTURepository;
 @RestController
 @RequestMapping("/iptu" )
 public class IPTUController {
-
+	
 	@Autowired
 	private IPTURepository iptuRepository;
 	

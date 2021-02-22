@@ -1,4 +1,4 @@
-INSERT INTO usuario (id, nome, email, senha) VALUES (1, 'Douglas', 'douglasmacbrito@gmail.com', '$2a$10$ux1Tiij6HaKOepxyAC9vEOjcc.1dRp5GniZJYUQpKWET9xic.AKqW');
+INSERT INTO usuario (id, nome, email, senha) VALUES (1, 'Douglas', 'douglasmacbrito@gmail.com', '$2a$10$Rvs6Eo39Cw8Bz3miTrAPD.P2aONVXX6nlvTDFCuIpWAty9TRObWPC');
 
 INSERT INTO endereco VALUES (1, 'Jardim Morumbi', '05421-555', 'Casa', 'Rua Carvalho de Almeida', 'São Paulo', 353, 'SP');
 INSERT INTO endereco VALUES (2, 'Jardim Adalgisa', '0443-154', 'Casa', 'Rua Celso Russomano', 'São Paulo', 10, 'SP');

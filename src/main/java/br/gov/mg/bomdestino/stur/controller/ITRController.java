@@ -3,6 +3,7 @@ package br.gov.mg.bomdestino.stur.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort.Direction;
 import org.springframework.data.web.PageableDefault;
@@ -28,6 +29,7 @@ public class ITRController {
 	}
 
 	@GetMapping()
+	@Cacheable(value = "findAllItr")
 	public @ResponseBody Iterable<ITR> findAll(@PageableDefault(direction = Direction.ASC, sort = "id") Pageable pageable) {
 		return itrRepository.findAll(pageable);
 	}
