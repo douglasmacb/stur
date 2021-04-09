@@ -2,6 +2,9 @@
 
 Sistema de Tributação Territorial Urbana e Rural
 
+CNPJ para consulta de IPTU 86877090055
+CNPJ para consulta de ITR 9209197000180
+
 ## Dependências
 
 Para o desenvolvimento desse projeto foi utilizado uma dependencia chamada Lombok que nos ajuda na redução de código boilerplate.
